@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Elly Moghtaderi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="make_header_footer.js" defer></script>
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <div id="header"></div>
+  <main id="main" class="main about-page">
+    <div class="about-layout">
+      <img class="about-headshot" src="images/headshot.jpg" alt="Portrait of Elly Moghtaderi">
+      <div class="about-copy">
+        <div class="page-heading"><h1>ABOUT</h1></div>
+    <section class="text-page" aria-label="Biography">
+      <p>Elly Moghtaderi (b. Tehran) is a filmmaker based in Waterloo, Canada. As a self-taught artist, her practice relies on collaboration and post-disciplinary research. Currently, she is working on the short film, ALAMOUT PROJECT, the last installment of her short film trilogy.</p>
+      <p>Through her works, she explores the occultural form of moving images by repurposing them as a heterogenoues fabulating force.
+These fabulations act as double exposures, folding trans/queer ontologies unto middle-eastern landscapes.
+The goal is to establish a haptic window in our collective visual memory, a collective memory that's haunted by violent historical traumas.
+Mythologizing as an alternative path for future(s) to exist. A historical-materialist coping mechanism that doesn't rely on negation.</p>
+      <section class="contact-section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">CONTACT</h2>
+        <p><a href="mailto:elly.mghtaderi@gmail.com">elly.mghtaderi@gmail.com</a></p>
+        <p id="contact-help">Write your message below, then open it in your email app to send.</p>
+        <form id="contact-form" action="mailto:elly.mghtaderi@gmail.com" method="post" enctype="text/plain" aria-describedby="contact-help">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="120" required>
+          <label for="contact-email">Email address</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="7" maxlength="5000" required></textarea>
+          <button type="submit">Open email draft</button>
+          <p id="contact-status" role="status"></p>
+        </form>
+      </section>
+    </section>
+      </div>
+    </div>
+  </main>
+  <div id="footer"></div>
+</body>
+</html>
